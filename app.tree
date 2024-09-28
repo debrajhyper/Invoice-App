@@ -1,0 +1,105 @@
+    Project
+    |   .env.local
+    |   .gitignore
+    |   app.tree
+    |   components.json
+    |   er.tree
+    |   eslint.config.js
+    |   index.html
+    |   package-lock.json
+    |   package.json
+    |   postcss.config.js
+    |   README.md
+    |   tailwind.config.js
+    |   terr.txt
+    |   tsconfig.app.json
+    |   tsconfig.json
+    |   tsconfig.node.json
+    |   vite.config.ts
+    |
+    +---public
+    |       vite.svg
+    |       
+    \---src
+        |   index.css
+        |   main.tsx
+        |   vite-env.d.ts
+        |   
+        +---app
+        |       App.tsx
+        |       
+        +---components
+        |   |   index.ts
+        |   |   
+        |   +---Badge
+        |   |       StatusDisplay.tsx
+        |   |       
+        |   +---Form
+        |   |   |   UserForm.tsx
+        |   |   |   
+        |   |   \---Input
+        |   |           combo-box.tsx
+        |   |           CurrencyPercentageInput.tsx
+        |   |           InputField.tsx
+        |   |           
+        |   +---Header
+        |   |       Header.tsx
+        |   |       
+        |   +---Modal
+        |   |       PreviewModal.tsx
+        |   |       SignatureDialog.tsx
+        |   |       
+        |   +---Preview
+        |   |       EmailPreview.tsx
+        |   |       Preview.tsx
+        |   |       
+        |   +---Sidebar
+        |   |       Sidebar.tsx
+        |   |       
+        |   +---Stepper
+        |   |       FromAndTo.tsx
+        |   |       InvoiceDetails.tsx
+        |   |       LineItems.tsx
+        |   |       PaymentInfo.tsx
+        |   |       Summary.tsx
+        |   |       
+        |   +---Table
+        |   |       DataTable.tsx
+        |   |       PageNumber.tsx
+        |   |       PageSize.tsx
+        |   |       Pagination.tsx
+        |   |       
+        |   \---ui
+        |           
+        +---constants
+        |       columns.tsx
+        |       currencies.ts
+        |       defaultInvoice.ts
+        |       index.ts
+        |       types.d.ts
+        |       
+        +---hooks
+        |       index.ts
+        |       use-toast.ts
+        |       useDynamicFontSize.ts
+        |       useInvoiceCalculations.ts
+        |       
+        +---lib
+        |       sendInvoiceEmail.ts
+        |       utils.ts
+        |       
+        +---pages
+        |   +---CreateInvoice
+        |   |       CreateInvoice.tsx
+        |   |       
+        |   \---ViewInvoices
+        |           ViewInvoices.tsx
+        |           
+        +---routes
+        |       index.ts
+        |       
+        +---store
+        |       invoiceStore.ts
+        |       
+        \---utils
+                index.ts
